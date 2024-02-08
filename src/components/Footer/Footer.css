@@ -1,0 +1,20 @@
+.copyright-p {
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.footer-href {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-shadow: 0 0 4px #000000;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+.footer-href:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  text-shadow: 0 0 4px #ffffff;
+  text-decoration: none;
+}

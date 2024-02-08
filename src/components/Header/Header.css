@@ -1,0 +1,79 @@
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-left {
+  display: flex;
+  justify-content: flex-start;
+  width: 30%;
+  padding-left: 100px;
+  font-family: 'ModernSans', sans-serif;
+  font-weight: 700;
+}
+
+.navbar-right {
+  display: flex;
+  justify-content: flex-end;
+  width: 70%;
+  padding-right: 100px;
+}
+
+.navbar-ul {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+
+.navbar-li {
+  list-style: none;
+  text-align: center;
+}
+
+.navbar-li-text {
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.navbar-li-text:hover {
+  color: rgba(0, 0, 0, 0.453);
+}
+
+@font-face {
+  font-family: 'ModernSans';
+  src: url('../../assets/fonts/ModernSans-Light.otf') format('opentype');
+}
+
+@media (max-width: 600px) {
+  .navbar-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .navbar-left {
+    justify-content: center;
+    width: 100%;
+    padding: 0px;
+  }
+
+  .navbar-right {
+    justify-content: center;
+    width: 100%;
+    padding: 0px;
+  }
+}
+
+@media (max-width: 300px) {
+  .navbar-ul {
+    flex-direction: column;
+  }
+
+  .navbar-container{
+    margin: 50px 0;
+  }
+}

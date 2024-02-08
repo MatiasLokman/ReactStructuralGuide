@@ -1,0 +1,59 @@
+.title-btn-container {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+.table-custom {
+  width: 80%;
+  overflow: hidden;
+  margin-bottom: 50px;
+  overflow-x: auto !important;
+}
+
+.table-name {
+  text-align: center;
+}
+
+.table-title {
+  text-align: center;
+}
+
+.table-img {
+  width: 150px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid rgb(213, 213, 213);
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+}
+
+.svg-btn {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+}
+
+.svg {
+  -webkit-transform: translate(-3px, -2px);
+  transform: translate(-3px, -2px);
+  width: 20px;
+  height: 20px;
+  fill: white;
+}
+
+.modal-title {
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .table-custom {
+    display: block !important;
+  }
+}

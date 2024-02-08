@@ -1,0 +1,9 @@
+.react-image {
+  border: 2px solid black;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+  border-radius: 25px;
+  margin-bottom: 10px;
+  max-height: 200px;
+  max-width: 100%;
+  height: auto;
+}

@@ -1,0 +1,27 @@
+.clock-container {
+  position: absolute;
+  left: 15px;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to bottom, #00d9ffc4, #00d9ffc4), url('../../assets/images/clock.webp');
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .4);
+  cursor: pointer;
+  transition: all .7s ease;
+}
+
+.p-clock {
+  text-shadow: 0 1px 5px #000000;
+}
+
+.clock-container:hover {
+  transform: rotate(360deg);
+}

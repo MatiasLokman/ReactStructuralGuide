@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "PELOTA ARGENTINA 23 PRO",
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2b279b1df2dd4be4b377b91acd223c68_9366/Pelota_Argentina_23_Pro_Blanco_IA0995_01_standard.jpg",
+      "hidden": false
+    },
+    {
+      "id": "2",
+      "name": "X CRAZYFAST MESSI LC.1 FG",
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1b0791fd93a740f686759656663953ae_9366/X_CRAZYFAST_MESSI_LC.1_FG_Blanco_ID3529_HM3_hover.jpg",
+      "hidden": false
+    },
+    {
+      "id": "3",
+      "name": "SHORTS DE DESCANSO ARGENTINA TIRO 23",
+      "imageUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/de2f8d4043944979b346aeb700c0c6ee_9366/Shorts_de_Descanso_Argentina_Tiro_23_Azul_HF3937_01_laydown.jpg",
+      "hidden": true
+    }
+  ]
+}
